@@ -6,6 +6,15 @@ const messages = {
 	signOutSuccess: 'Come back soon!',
 	changePasswordSuccess: 'Password changed successfully!',
 	changePasswordFailure:'Failed to change passwords. Check your old password and try again.',
+	getHomesFailure: 'Failed to retrieve homes. Ruh-roh',
+	createHomeSuccess: 'New home has been created! Yay!',
+	createHomeFailure: 'Failed to create new home, please try again',
+	updateHomeSuccess: 'Home has been updated! Yay!',
+	updateHomeFailure: 'Failed to update home, please try again',
+	removeHomeSuccess: 'This home has been set free!',
+	removeHomeFailure: 'Something went wrong, please try again',
+	createFurnitureSuccess: 'Great! The home seems to love it!',
+	createFurnitureFailure: 'Something went wrong, please try again'
 }
 
 module.exports = messages
